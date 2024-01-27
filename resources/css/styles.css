@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.my-container{
+    margin: auto;
+    width: 1140px;
+    background-color: #fff;
+}
+
+.my-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: end;
+}
+    .my-logo{
+        width: 200px;
+    }
+    .my-horizontal-list .option{
+        text-align: center;
+        background-color: #b5b5b5;
+        display: inline-block;
+        width: 160px;
+        padding: 10px;
+        border-radius: 30px 30px 0px 0px;
+        font-size: 1.35rem;
+        cursor: pointer;
+        color: #000;
+    }
+        .my-horizontal-list .option:hover{
+            background-color: #002C73;
+            color: #fff;
+        }
+        .my-horizontal-list .justify-li{
+            padding-top: 1.62em;
+        }
+
+.my-blue-stripe{
+    width: 100%;
+    height: 50px;
+    background-color: #002C73;
+}
+
+.my-vertical-list .option{
+    text-align: center;
+    background-color: #b5b5b5;
+    display: block;
+    width: 170px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 1.35rem;
+    cursor: pointer;
+    color: #000;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+    .my-vertical-list .option:hover{
+        background-color: #002C73;
+        color: #fff;
+    }
+
+.images{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+    .image-size{
+        max-width: 900px;
+        max-height: 360px;
+    }
+
+.my-footer{
+    width: 1140px; /* Debe tener el valor de container */
+    position: absolute;
+    text-align: center;
+}
+.slogan{
+    font-size: 2.8rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #002C73;
+}
