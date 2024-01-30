@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
 }
+.content{
+    display: none; /* Versión celular */
+}
 .my-container{
+    display: block;
     margin: auto;
     width: 1140px;
     background-color: #fff;
@@ -82,4 +86,54 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     color: #002C73;
+}
+
+/* Responsive Web */
+@media (max-width: 540px) {
+    .my-container{
+        display: none;
+    }
+    .content{
+        display: block;
+    }
+    .header-slogan{
+        color: #002C73;
+        font-size: 3rem;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #fff;
+        border-bottom: 1px solid #b5b5b5;
+    }
+    
+        .body{
+            display: block;
+            margin-top: 150px;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .my-logo{
+            width: 95%;
+        }
+        .carousel-reponsive{
+            width: 81%;
+            border: 1px solid #002C73;
+        }
+            .slide{
+                width: 80%;
+            }
+    
+    .footer-slogan{
+        color: #002C73;
+        font-size: 3rem;
+        text-align: center;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        background-color: #fff;
+        border-top: 1px solid #b5b5b5;
+    }
+    
 }
