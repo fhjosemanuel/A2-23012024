@@ -108,22 +108,34 @@
     }
     
         .body{
-            display: block;
+            display: grid;
+            place-items: center;
             margin-top: 150px;
             justify-content: center;
             align-items: center;
             width: 100%;
         }
+        .content-logo{
+            width: 90%;
+            text-align: center;
+        }
         .my-logo{
-            width: 95%;
+            width: 90%;
         }
         .carousel-reponsive{
             width: 81%;
             border: 1px solid #002C73;
+            margin-top: 25px;
         }
             .slide{
-                width: 80%;
+                width: 90%;
+                margin-left: 5%;
             }
+        
+        .menu{
+            margin-top: 20px;
+            width: 81%;
+        }
     
     .footer-slogan{
         color: #002C73;
