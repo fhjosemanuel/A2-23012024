@@ -110,7 +110,7 @@
         .body{
             display: grid;
             place-items: center;
-            margin-top: 150px;
+            margin-top: 130px;
             justify-content: center;
             align-items: center;
             width: 100%;
@@ -130,6 +130,14 @@
             .slide{
                 width: 90%;
                 margin-left: 5%;
+            }
+
+        .sm-social-media{
+            margin-top: 20px;
+        }
+            .sm-social-media .slogan{
+                font-size: 1.7rem;
+                text-align: center;
             }
         
         .menu{
