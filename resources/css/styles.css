@@ -111,6 +111,7 @@
             display: grid;
             place-items: center;
             margin-top: 130px;
+            margin-bottom: 130px;
             justify-content: center;
             align-items: center;
             width: 100%;
@@ -139,6 +140,38 @@
                 font-size: 1.7rem;
                 text-align: center;
             }
+
+        /* MENÚ */
+        .sm-menu .card-link{
+            background-color: #fff;
+            
+        }
+        .sm-menu{
+            margin-top: 20px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .sm-menu .card-link{
+            margin-bottom: 20px;
+            width: 130px;
+            height: 140px;
+            display: inline-block;
+        }
+        .sm-menu .card-link .container-link img{
+            width: 70px;
+            margin: 25px;
+        }
+        .sm-menu .card-link .container-link{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 1px solid #000;
+        }
+        .sm-menu .card-link .title-link{
+            font-size: 1.2rem;
+            text-align: center;
+        }
         
         .menu{
             margin-top: 20px;
