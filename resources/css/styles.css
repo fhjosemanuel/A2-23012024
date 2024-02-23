@@ -13,7 +13,6 @@
 }
 
 .my-header{
-    background-color: pink;
     display: flex;
     justify-content:space-between;
     align-items: end;
@@ -67,6 +66,16 @@
         background-color: #002C73;
         color: #fff;
     }
+.section-info{
+    /* background-color: blue; */
+    display: flex;
+    justify-content:space-between;
+}
+#startContext{
+    /* background-color: aqua; */
+    display: block;
+    flex: auto;
+}
 
 .images{
     display: flex;
