@@ -13,12 +13,18 @@
 }
 
 .my-header{
+    background-color: pink;
     display: flex;
     justify-content:space-between;
     align-items: end;
+    width: 100%;
 }
     .my-logo{
-        width: 200px;
+        width: 180px;
+    }
+    .my-horizontal-list{
+        display: flex;
+        justify-content: end;
     }
     .my-horizontal-list .option{
         text-align: center;
@@ -26,6 +32,7 @@
         display: inline-block;
         width: 160px;
         padding: 10px;
+        margin-left: 5px;
         border-radius: 30px 30px 0px 0px;
         font-size: 1.35rem;
         cursor: pointer;
@@ -34,9 +41,6 @@
         .my-horizontal-list .option:hover{
             background-color: #002C73;
             color: #fff;
-        }
-        .my-horizontal-list .justify-li{
-            padding-top: 1.62em;
         }
 
 .my-blue-stripe{
