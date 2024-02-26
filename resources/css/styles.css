@@ -76,6 +76,15 @@
     display: block;
     flex: auto;
 }
+    .info-section{
+        padding: 30px;
+        text-align: justify;
+    }
+    .h1-context{
+        color: #E10F0F;
+        font-weight: bold;
+        font-size: x-large;
+    }
 
 .images{
     display: flex;
