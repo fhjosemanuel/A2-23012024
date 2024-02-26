@@ -76,5 +76,34 @@ function ShowPlanAcademico(){
 }
 function ShowPlanPolitico(){
         var displayStartContext = document.getElementById("startContext");
-        displayStartContext.innerHTML = "<div class='info-section'>El plan político se basa en los siguientes ejes:<br>COMUNICACIÓN<br>• Infundir la identidad del grupo BIO a través del diseño y socialización de la imagen y la fi losofía del grupo entre nuestros integrantes.<br>• Posicionar al grupo en la comunidad universitaria a través de un plan de marketing digital con énfasis académico.<br>• Generar canales de comunicación interactivos e inclusivos para que todas las voces sean escuchadas y tengan incidencia en la toma de decisiones.<br>• Asegurar la transparencia y el derecho de acceso a la información mediante la documentación de las actividades y toma de decisiones al interior del grupo.<br>• Propiciar la confianza y defender la verdad como pilares fundamentales de la comunicación al interior del grupo.<br>DESAROLLO ACADÉMICO Y PROFESIONAL<br>• Promover la superación y mejora continua en nuestra comunidad, enfocando mayoritariamente nuestras acciones en el ámbito académico e insitucional.<br>• Favorecer el desarrollo de nuestros integrantes, gestionando las condiciones adecuadas para su formación profesional.<br>• Impulsar el desarrollo de los programas educativos para lograr la excelencia académica. Para ello, es necesario asegurar la participación en puestos estratégicos para la toma de decisiones.<br>BIENESTAR<br>• Fomentar la formación integral, con sentido humanista, de los diferentes actores de nuestra comunidad a través de programas de capacitación y empoderamiento, que incluyan la formación política y de gestión en nuestros integrantes.<br>• Favorecer la salud física y emocional de nuestra comunidad, así como el cuidado del medio ambiente a través de actividades culturales, deportivas, sociales, entre otras.<br>• Promover la mejora de las condiciones laborales, gestionando ante las autoridades correspondientes las prestaciones<br>EQUIDAD Y JUSTICIA<br>• Revalorar el papel de todos los miembros de nuestra comunidad.<br>• Promover el respeto a nuestra normatividad universitaria y a los derechos humanos, respaldando a nuestros integrantes y alzando la voz ante actos de injusticia y violencia de cualquier tipo.<br>• Justicia laboral en nuestra comunidad, anteponiendo los principios de equidad y los derechos contractuales</div>";
+        displayStartContext.innerHTML = ""
+        +"<div class='info-section'>"
+                +"<p>El plan político se basa en los siguientes ejes:</p><br>"
+                +"<br><p class='h1-context'>COMUNICACIÓN</p><br>"
+                +"<ul>"
+                        +"<li>Infundir la identidad del grupo BIO a través del diseño y socialización de la imagen y la fi losofía del grupo entre nuestros integrantes.</li>"
+                        +"<li>Posicionar al grupo en la comunidad universitaria a través de un plan de marketing digital con énfasis académico.</li>"
+                        +"<li>Generar canales de comunicación interactivos e inclusivos para que todas las voces sean escuchadas y tengan incidencia en la toma de decisiones.</li>"
+                        +"<li>Asegurar la transparencia y el derecho de acceso a la información mediante la documentación de las actividades y toma de decisiones al interior del grupo.</li>"
+                        +"<li>Propiciar la confianza y defender la verdad como pilares fundamentales de la comunicación al interior del grupo.</li>"
+                +"</ul>"
+                +"<br><p class='h1-context'>DESAROLLO ACADÉMICO Y PROFESIONAL</p><br>"
+                +"<ul>"
+                        +"<li>Promover la superación y mejora continua en nuestra comunidad, enfocando mayoritariamente nuestras acciones en el ámbito académico e insitucional.</li>"
+                        +"<li>Favorecer el desarrollo de nuestros integrantes, gestionando las condiciones adecuadas para su formación profesional.</li>"
+                        +"<li>Impulsar el desarrollo de los programas educativos para lograr la excelencia académica. Para ello, es necesario asegurar la participación en puestos estratégicos para la toma de decisiones.</li>"
+                +"</ul>"
+                +"<br><p class='h1-context'>BIENESTAR</p><br>"
+                +"<ul>"
+                        +"<li>Fomentar la formación integral, con sentido humanista, de los diferentes actores de nuestra comunidad a través de programas de capacitación y empoderamiento, que incluyan la formación política y de gestión en nuestros integrantes.</li>"
+                        +"<li>Favorecer la salud física y emocional de nuestra comunidad, así como el cuidado del medio ambiente a través de actividades culturales, deportivas, sociales, entre otras.</li>"
+                        +"<li>Promover la mejora de las condiciones laborales, gestionando ante las autoridades correspondientes las prestaciones</li>"
+                +"</ul>"
+                +"<br><p class='h1-context'>BEQUIDAD Y JUSTICIA</p><br>"
+                +"<ul>"
+                        +"<li>Revalorar el papel de todos los miembros de nuestra comunidad.</li>"
+                        +"<li>Promover el respeto a nuestra normatividad universitaria y a los derechos humanos, respaldando a nuestros integrantes y alzando la voz ante actos de injusticia y violencia de cualquier tipo.</li>"
+                        +"<li>Justicia laboral en nuestra comunidad, anteponiendo los principios de equidad y los derechos contractuales</li>"
+                +"</ul>"
+        +"</div>";
 }
