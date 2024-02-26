@@ -28,7 +28,51 @@ function ShowMisionVision(){
 
 function ShowPlanAcademico(){
         var displayStartContext = document.getElementById("startContext");
-        displayStartContext.innerHTML = "<div class='info-section'>El plan académico se basa en los siguientes ejes:<br>INFRAESTRUCTURA<br>• Implementar un plan para la recuperación y el mantenimiento de los espacios prioritarios para el trabajoacadémico y administrativo que involucre a la comunidad FCQB.<br>• Adaptación de instalaciones para personas con capacidades diferentes.<br>• Transitar hacia el desarrollo de instalaciones e infraestructura ambientalmente amigables.<br>DOCENCIA<br>• Impulsar la habilitación y capacitación del personal académico para fortalecer los perfi les en las áreas prioritarias identifi cadas en cada PE.<br>• Priorizar que las contrataciones futuras correspondan a los perfi les prioritarios que requiere cada PE.<br>• Re-acreditar los programas educativos de licenciatura.<br>Implementar un programa integral de capacitación y bienestar.<br>FORMACIÓN INTEGRAL DEL ESTUDIANTE<br>• Alinear el proceso de aprendizaje a la fi losofía de la nueva escuela mexicana.<br>• Implementar campañas de concientización para el respeto al ambiente.<br>• Impulsar un programa de empoderamiento y de mejora de la salud mental del estudiantado.<br>• Articular e implementar actividades culturales, deportivas y recreativas.<br>VINCULACIÓN<br>• Formalizar acuerdos de colaboración con organizaciones sociales, productivas y gubernamentales afi nes a las áreas de énfasis de los PE.<br>• Promover la participación de la comunidad en eventos y programas de vinculación con los sectores de la sociedad.<br>• Incorporar tecnologías en el proceso de aprendizaje, como laboratorios virtuales y plataformas que permitan el desarrollo de los procesos académicos con visión global.<br>TECNOLOGÍAS DE LA INFORMACIÓN<br>• Gestionar proyectos para mejorar la conectividad en todas las instalaciones de la FCQB y el acceso a los repositorios académicos y de investigación.<br>• Articular los recursos digitales internos y externos para la incorporación de las TIC en las actividades adjetivas y sustantivas.<br>• Implementar un sistema de documentación y seguimiento de la trayectoria escolar y del personal.<br>INVESTIGACIÓN<br>• Realizar un análisis de la pertinencia de las líneas de investigación y proponer una estrategia para su reorientación hacia las áreas prioritarias y de mayor incidencia social.<br>• Fomentar el desarrollo de proyectos directamente vinculados con los sectores de la sociedad.<br>• Promover que los procesos de generación de conocimiento y desarrollo de tecnologías se vinculen con los procesos de transferencia y apropiación social.<br>AMBIENTE LABORAL Impulsar un programa formativo para el desarrollo de habilidades directivas y de gestión para el personal administrativo. Diseñar un plan de gran visión para el desarrollo de la FCQB. Realizar un diagnóstico tal que permita diseñar acciones para la mejora del clima laboral y un sistema de calidad que asegure la salud y seguridad en el trabajo del personal académico, administrativo y de intendencia. Impulsar un programa sistemático para el empoderamiento positivo que asegure una cultura de paz y la promoción de la no violencia entre toda la comunidad</div>";
+        displayStartContext.innerHTML = ""+
+        "<div class='info-section'>"
+                +"<p>El plan académico se basa en los siguientes ejes:</p><br>"
+                +"<p class='h1-context'>INFRAESTRUCTURA</p><br>"
+                +"<ul>"
+                        +"<li>Implementar un plan para la recuperación y el mantenimiento de los espacios prioritarios para el trabajoacadémico y administrativo que involucre a la comunidad FCQB.</li>"
+                        +"<li>Adaptación de instalaciones para personas con capacidades diferentes.</li>"
+                        +"<li>Transitar hacia el desarrollo de instalaciones e infraestructura ambientalmente amigables.</li>"
+                +"</ul>"
+                +"<br><p class='h1-context'>DOCENCIA</p><br>"
+                +"<ul>"
+                        +"<li>Impulsar la habilitación y capacitación del personal académico para fortalecer los perfi les en las áreas prioritarias identifi cadas en cada PE.</li>"
+                        +"<li>Priorizar que las contrataciones futuras correspondan a los perfi les prioritarios que requiere cada PE.</li>"
+                        +"<li>Re-acreditar los programas educativos de licenciatura.</li>"
+                        +"<li>Implementar un programa integral de capacitación y bienestar.</li>"
+                +"</ul>"
+                +"<br><p class='h1-context'>FORMACIÓN INTEGRAL DEL ESTUDIANTE</p><br>"
+                +"<ul>"
+                        +"<li>Alinear el proceso de aprendizaje a la fi losofía de la nueva escuela mexicana.<br>• Implementar campañas de concientización para el respeto al ambiente.</li>"
+                        +"<li>Impulsar un programa de empoderamiento y de mejora de la salud mental del estudiantado.</li>"
+                        +"<li>Articular e implementar actividades culturales, deportivas y recreativas.</li>"
+                +"</ul>"
+                +"<br><p class='h1-context'>VINCULACIÓN</p><br>"
+                +"<ul>"
+                        +"<li>Formalizar acuerdos de colaboración con organizaciones sociales, productivas y gubernamentales afi nes a las áreas de énfasis de los PE.</li>"
+                        +"<li>Promover la participación de la comunidad en eventos y programas de vinculación con los sectores de la sociedad.</li>"
+                        +"<li>Incorporar tecnologías en el proceso de aprendizaje, como laboratorios virtuales y plataformas que permitan el desarrollo de los procesos académicos con visión global.</li>"
+                +"</ul>"
+                +"<br><p class='h1-context'>TECNOLOGÍAS DE LA INFORMACIÓN</p><br>"
+                +"<ul>"
+                        +"<li>Gestionar proyectos para mejorar la conectividad en todas las instalaciones de la FCQB y el acceso a los repositorios académicos y de investigación.</li>"
+                        +"<li>Articular los recursos digitales internos y externos para la incorporación de las TIC en las actividades adjetivas y sustantivas.</li>"
+                        +"<li>Implementar un sistema de documentación y seguimiento de la trayectoria escolar y del personal</li>"
+                +"</ul>"
+                +"<br><p class='h1-context'>INVESTIGACIÓN</p><br>"
+                +"<ul>"
+                        +"<li>Realizar un análisis de la pertinencia de las líneas de investigación y proponer una estrategia para su reorientación hacia las áreas prioritarias y de mayor incidencia social.</li>"
+                        +"<li>Fomentar el desarrollo de proyectos directamente vinculados con los sectores de la sociedad.</li>"
+                        +"<li>Promover que los procesos de generación de conocimiento y desarrollo de tecnologías se vinculen con los procesos de transferencia y apropiación social.</li>"
+                +"</ul>"
+                +"<br><p class='h1-context'>AMBIENTE LABORAL</p><br>"
+                +"<p>Impulsar un programa formativo para el desarrollo de habilidades directivas y de gestión para el personal administrativo.</p>"
+                +"<p>Diseñar un plan de gran visión para el desarrollo de la FCQB. Realizar un diagnóstico tal que permita diseñar acciones para la mejora del clima laboral y un sistema de calidad que asegure la salud y seguridad en el trabajo del personal académico, administrativo y de intendencia.</p>"
+                +"<p>Impulsar un programa sistemático para el empoderamiento positivo que asegure una cultura de paz y la promoción de la no violencia entre toda la comunidad</p>"
+        +"</div>";
 }
 function ShowPlanPolitico(){
         var displayStartContext = document.getElementById("startContext");
