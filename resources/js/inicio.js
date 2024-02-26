@@ -19,7 +19,11 @@ function ShowPrincipiosValores(){
 
 function ShowMisionVision(){
         var displayStartContext = document.getElementById("startContext");
-        displayStartContext.innerHTML = "<div class='info-section'>El Grupo BIO, como parte del Frente Estatal por la Transformación de la UAGro (FET-UAGro), es una organización que realiza actividades académicas y políticas que impulsan la consolidación académica de nuestra institución, a la vez que promueve acciones para el bienestar de la comunidad universitaria. Al 2028, el Grupo BIO es una organización académico – política con amplio reconocimiento en la comunidad universitaria, con miembros que realizan sus actividades con integridad y justicia social, contribuyendo de manera importante en la educación de excelencia de profesionistas en el estado de Guerrero</div>";
+        displayStartContext.innerHTML = ""
+        +"<div class='info-section'>"
+                +"<p>El Grupo BIO, como parte del Frente Estatal por la Transformación de la UAGro (FET-UAGro), es una organización que realiza actividades académicas y políticas que impulsan la consolidación académica de nuestra institución, a la vez que promueve acciones para el bienestar de la comunidad universitaria.</p><br>"
+                +"<p>Al 2028, el Grupo BIO es una organización académico – política con amplio reconocimiento en la comunidad universitaria, con miembros que realizan sus actividades con integridad y justicia social, contribuyendo de manera importante en la educación de excelencia de profesionistas en el estado de Guerrero</p><br>"
+        +"</div>";
 }
 
 function ShowPlanAcademico(){
