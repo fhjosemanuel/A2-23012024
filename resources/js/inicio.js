@@ -2,17 +2,17 @@ function ShowPrincipiosValores(){
         var displayStartContext = document.getElementById("startContext");
         displayStartContext.innerHTML = ""+
         "<div class='info-section'>"
-                +"<p class='h1-context'>Lealtad</p>"
+                +"<p class='h1-context'>LEALTAD</p><br>"
                 +"Somos leales a los principios del FET-UAGro y a los compromisos que adquirimos como parte de esta comunidad, respetamos y defendemos nuestra autonomía, normatividad e identidad institucional.<br><br>"
-                +"<p class='h1-context'>Unidad</p>"
+                +"<p class='h1-context'>INIDAD</p><br>"
                 +"Nuestras ideas, pensamientos y acciones están orientadas a promover el trabajo colaborativo y armonioso en nuestro entorno, a hacer sinergias para enfocar los recursos en pro de un proyecto común que es nuestra Universidad.<br><br>"
-                +"<p class='h1-context'>Respeto</p>"
+                +"<p class='h1-context'>RESPETO</p><br>"
                 +"Nos ocupamos de que nuestras acciones tengan impacto positivo y signifi cativo en nuestra comunidad, valorando la importancia de cada individuo y forma de vida en nuestro entorno. Promovemos la tolerancia, la empatía, la solidaridad y la diversidad de pensamientos como forma de crecimiento personal y profesional.<br><br>"
-                +"<p class='h1-context'>Justicia</p>"
+                +"<p class='h1-context'>JUSTICIA</p><br>"
                 +"Creemos que todos podemos contribuir al bien común y a la toma de decisiones; por ello, fomentamos la inclusión, la verdad, la equidad y el respeto a los derechos para garantizar el orden y la paz en nuestra comunidad.<br><br>"
-                +"<p class='h1-context'>Integridad</p>"
+                +"<p class='h1-context'>INTEGRIDAD</p><br>"
                 +"Nos conducimos de manera honesta, honrada y respetuosa, priorizando el benefi cio colectivo sobre lo individual.<br><br>"
-                +"<p class='h1-context'>Compromiso institucional</p>"
+                +"<p class='h1-context'>COMPROMISO INSTITUCIONAL</p><br>"
                 +"Reconocemos nuestra identidad política, pero somos conscientes de que, como parte de la comunidad UAGro, tenemos objetivos compartidos por los cuales trabajar, sin discriminación de género, afi nidad política o de cualquier otra índole, para hacer realidad el proyecto de Universidad pueblo con calidad e inclusión social.<br><br>"
         +"</div>";
 }
