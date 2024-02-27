@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -98,15 +99,19 @@
         max-width: 900px;
         max-height: 370px;
     }
+    .principal{
+        position: relative;
+    }
 
-.my-footer{
-    width: 1140px; /* Debe tener el valor de container */
+.principal > .footer{
     position: absolute;
     text-align: center;
+    width: 100%;
+    bottom: -50px;
 }
 .slogan{
     font-size: 2.8rem;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Courgette", cursive;
     font-weight: bold;
     color: #002C73;
 }
