@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -123,8 +123,9 @@
     }
     .content{
         display: block;
+        width: 100%;
     }
-    .header-slogan{
+    .header-slogan, .footer-slogan{
         color: #002C73;
         font-size: 3rem;
         text-align: center;
@@ -134,7 +135,11 @@
         background-color: #fff;
         border-bottom: 1px solid #b5b5b5;
     }
-    
+    .footer-slogan{
+        top: auto;
+        bottom: 0;
+        border-top: 1px solid #b5b5b5;
+    }
         .body{
             display: grid;
             place-items: center;
@@ -205,16 +210,5 @@
             margin-top: 20px;
             width: 81%;
         }
-    
-    .footer-slogan{
-        color: #002C73;
-        font-size: 3rem;
-        text-align: center;
-        width: 100%;
-        position: fixed;
-        bottom: 0;
-        background-color: #fff;
-        border-top: 1px solid #b5b5b5;
-    }
     
 }
