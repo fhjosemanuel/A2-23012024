@@ -173,36 +173,40 @@
                 font-size: 1.7rem;
                 text-align: center;
             }
+            .sm-social-media-list{
+                display: flex;
+                justify-content:space-around;
+            }
 
         /* MENÚ */
-        .sm-menu .card-link{
-            background-color: #fff;
-            
-        }
         .sm-menu{
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
             margin-top: 20px;
-            align-items: center;
-            justify-content: center;
             text-align: center;
+            justify-content:space-around;
         }
         .sm-menu .card-link{
+            text-align: center;
+            align-items: center;
+            /* background-color: aqua; */
+            margin-left: 10px;
             margin-bottom: 20px;
-            width: 130px;
-            height: 140px;
-            display: inline-block;
-        }
-        .sm-menu .card-link .container-link img{
-            width: 70px;
-            margin: 25px;
+            width: 150px;
         }
         .sm-menu .card-link .container-link{
-            width: 120px;
-            height: 120px;
+            width: 100%;
+            height: 150px;
             border-radius: 50%;
             border: 1px solid #000;
         }
+            .sm-menu .card-link .container-link img{
+                width: 75px;
+                margin: 30px;
+            }
         .sm-menu .card-link .title-link{
-            font-size: 1.2rem;
+            font-size: 1.6rem;
             text-align: center;
         }
         
