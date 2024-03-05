@@ -136,9 +136,8 @@ function ShowPlanAcademicoMovil(){
         }
         displayStartContext.innerHTML = returnTxtPlanAcademico();
 }
-function ShowPlanPolitico(){
-        var displayStartContext = document.getElementById("startContext");
-        displayStartContext.innerHTML = ""
+function returnTextPlanPolitico(){
+        return ""
         +"<div class='info-section'>"
                 +"<p>El plan político se basa en los siguientes ejes:</p><br>"
                 +"<br><p class='h1-context'>COMUNICACIÓN</p><br>"
@@ -168,4 +167,26 @@ function ShowPlanPolitico(){
                         +"<li>Justicia laboral en nuestra comunidad, anteponiendo los principios de equidad y los derechos contractuales</li>"
                 +"</ul>"
         +"</div>";
+}
+function ShowPlanPolitico(){
+        var displayStartContext = document.getElementById("startContext");
+        displayStartContext.innerHTML = returnTextPlanPolitico();
+}
+function ShowPlanPoliticoMovil(){
+        var displayStartContext = document.getElementById("planPolitico");
+        
+        let menu = document.getElementsByClassName("card-link")[3];
+        let circulo = document.getElementsByClassName("container-link")[3];
+        
+        if(menu.classList.contains("click")) {
+                menu.classList.remove("click");
+                displayStartContext.style.display = "none";
+                circulo.style.backgroundColor = "#fff";
+        }
+        else{
+                menu.classList.add("click");
+                displayStartContext.style.display = "flex";
+                circulo.style.backgroundColor = "#002C73";
+        }
+        displayStartContext.innerHTML = returnTextPlanPolitico();
 }
