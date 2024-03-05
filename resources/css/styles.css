@@ -115,9 +115,16 @@
     font-weight: bold;
     color: #002C73;
 }
-
+#principiosValores{
+    display: none;
+}
 /* Responsive Web */
 @media (max-width: 540px) {
+    #principiosValores{
+        display: none;
+        width: 100%;
+        padding: 15px;
+    }
     .my-container{
         display: none;
     }

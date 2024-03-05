@@ -43,11 +43,14 @@
                 </div>
                 
                 <div class="sm-menu">
-                    <div class="card-link">
+                    <div class="card-link" onclick="ShowPrincipiosValoresMovil()">
                         <div class="container-link">
                             <img src="resources/img/apreton-de-manos.png" alt="https://www.flaticon.es/iconos-gratis/empatia">
                         </div>
                         <div class="title-link">Principios y valores</div>
+                    </div>
+                    <div id="principiosValores">
+                        hola
                     </div>
                     <div class="card-link">
                         <div class="container-link">
@@ -117,11 +120,11 @@
             <div class="my-header">
                 <img src="resources/img/logo.png" alt="FET UAGRO" class="my-logo">
                 <div class="my-horizontal-list">
-                    <div class="option" id="IdPrincipiosValores" onclick="ShowPrincipiosValores()">PRINCIPIOS Y VALORES</div>
-                    <div class="option" id="IdMisionVision" onclick="ShowMisionVision()">MISIÓN Y VISIÓN</div>
-                    <div class="option" id="IdPlanAcademico" onclick="ShowPlanAcademico()">PLAN ACADÉMICO</div>
-                    <div class="option" id="IdPlanPolitico" onclick="ShowPlanPolitico()">PLAN POLITICO</div>
-                    <div class="option" id="IdOrganigrama" id="organigrama">ORGANIGRAMA</div>
+                    <div class="option" onclick="ShowPrincipiosValores()">PRINCIPIOS Y VALORES</div>
+                    <div class="option" onclick="ShowMisionVision()">MISIÓN Y VISIÓN</div>
+                    <div class="option" onclick="ShowPlanAcademico()">PLAN ACADÉMICO</div>
+                    <div class="option" onclick="ShowPlanPolitico()">PLAN POLITICO</div>
+                    <div class="option">ORGANIGRAMA</div>
                 </div>
             </div>            
             <div class="my-blue-stripe"></div>
@@ -155,7 +158,7 @@
             </div>
         </div>
     </main>
-    <script type="text/javascript" src="resources/js/jquery-3.7.1.min.js"></script>
+    <script src="resources/js/jquery-3.7.1.min.js"></script>
     <script src="resources/js/inicio.js"></script>
 </body>
 </html>
