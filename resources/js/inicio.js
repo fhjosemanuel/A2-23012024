@@ -67,10 +67,8 @@ function ShowMisionVisionMovil(){
         }
         displayStartContext.innerHTML = returnTxtMisionVision();
 }
-
-function ShowPlanAcademico(){
-        var displayStartContext = document.getElementById("startContext");
-        displayStartContext.innerHTML = ""+
+function returnTxtPlanAcademico(){
+        return ""+
         "<div class='info-section'>"
                 +"<p>El plan académico se basa en los siguientes ejes:</p><br>"
                 +"<p class='h1-context'>INFRAESTRUCTURA</p><br>"
@@ -115,6 +113,28 @@ function ShowPlanAcademico(){
                 +"<p>Diseñar un plan de gran visión para el desarrollo de la FCQB. Realizar un diagnóstico tal que permita diseñar acciones para la mejora del clima laboral y un sistema de calidad que asegure la salud y seguridad en el trabajo del personal académico, administrativo y de intendencia.</p>"
                 +"<p>Impulsar un programa sistemático para el empoderamiento positivo que asegure una cultura de paz y la promoción de la no violencia entre toda la comunidad</p>"
         +"</div>";
+}
+function ShowPlanAcademico(){
+        var displayStartContext = document.getElementById("startContext");
+        displayStartContext.innerHTML = returnTxtPlanAcademico();
+}
+function ShowPlanAcademicoMovil(){
+        var displayStartContext = document.getElementById("planAcademica");
+        
+        let menu = document.getElementsByClassName("card-link")[2];
+        let circulo = document.getElementsByClassName("container-link")[2];
+        
+        if(menu.classList.contains("click")) {
+                menu.classList.remove("click");
+                displayStartContext.style.display = "none";
+                circulo.style.backgroundColor = "#fff";
+        }
+        else{
+                menu.classList.add("click");
+                displayStartContext.style.display = "flex";
+                circulo.style.backgroundColor = "#002C73";
+        }
+        displayStartContext.innerHTML = returnTxtPlanAcademico();
 }
 function ShowPlanPolitico(){
         var displayStartContext = document.getElementById("startContext");
