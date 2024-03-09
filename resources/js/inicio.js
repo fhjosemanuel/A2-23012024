@@ -190,3 +190,142 @@ function ShowPlanPoliticoMovil(){
         }
         displayStartContext.innerHTML = returnTextPlanPolitico();
 }
+
+
+function ShowOrganigrama(){
+        var displayStartContext = document.getElementById("startContext");
+        displayStartContext.innerHTML = returnTextPrincipiosValores();
+}
+function ShowOrganigramaMovil(){
+        var displayStartContext = document.getElementById("organigrama");
+        
+        let menu = document.getElementsByClassName("card-link")[4];
+        let circulo = document.getElementsByClassName("container-link")[4];
+        
+        if(menu.classList.contains("click")) {
+                menu.classList.remove("click");
+                displayStartContext.style.display = "none";
+                circulo.style.backgroundColor = "#fff";
+        }
+        else{
+                menu.classList.add("click");
+                displayStartContext.style.display = "flex";
+                circulo.style.backgroundColor = "#002C73";
+        }
+        displayStartContext.innerHTML = returnTextPrincipiosValores();
+}
+
+function showTrabajadores(){
+        var displayStartContext = document.getElementById("startContext");
+        displayStartContext.innerHTML = returnTextPrincipiosValores();
+}
+function showTrabajadoresMovil(){
+        var displayStartContext = document.getElementById("trabajadores");
+        
+        let menu = document.getElementsByClassName("card-link")[5];
+        let circulo = document.getElementsByClassName("container-link")[5];
+        
+        if(menu.classList.contains("click")) {
+                menu.classList.remove("click");
+                displayStartContext.style.display = "none";
+                circulo.style.backgroundColor = "#fff";
+        }
+        else{
+                menu.classList.add("click");
+                displayStartContext.style.display = "flex";
+                circulo.style.backgroundColor = "#002C73";
+        }
+        displayStartContext.innerHTML = returnTextPrincipiosValores();
+}
+
+function showEstudiantes(){
+        var displayStartContext = document.getElementById("startContext");
+        displayStartContext.innerHTML = returnTextPrincipiosValores();
+}
+function showEstudiantesMovil(){
+        var displayStartContext = document.getElementById("estudiantes");
+        
+        let menu = document.getElementsByClassName("card-link")[6];
+        let circulo = document.getElementsByClassName("container-link")[6];
+        
+        if(menu.classList.contains("click")) {
+                menu.classList.remove("click");
+                displayStartContext.style.display = "none";
+                circulo.style.backgroundColor = "#fff";
+        }
+        else{
+                menu.classList.add("click");
+                displayStartContext.style.display = "flex";
+                circulo.style.backgroundColor = "#002C73";
+        }
+        displayStartContext.innerHTML = returnTextPrincipiosValores();
+}
+
+function showAgenda(){
+        var displayStartContext = document.getElementById("startContext");
+        displayStartContext.innerHTML = returnTextPrincipiosValores();
+}
+function showAgendaMovil(){
+        var displayStartContext = document.getElementById("agenda");
+        
+        let menu = document.getElementsByClassName("card-link")[7];
+        let circulo = document.getElementsByClassName("container-link")[7];
+        
+        if(menu.classList.contains("click")) {
+                menu.classList.remove("click");
+                displayStartContext.style.display = "none";
+                circulo.style.backgroundColor = "#fff";
+        }
+        else{
+                menu.classList.add("click");
+                displayStartContext.style.display = "flex";
+                circulo.style.backgroundColor = "#002C73";
+        }
+        displayStartContext.innerHTML = returnTextPrincipiosValores();
+}
+
+function showEmpoderate(){
+        var displayStartContext = document.getElementById("startContext");
+        displayStartContext.innerHTML = returnTextPrincipiosValores();
+}
+function showEmpoderateMovil(){
+        var displayStartContext = document.getElementById("empoderate");
+        
+        let menu = document.getElementsByClassName("card-link")[8];
+        let circulo = document.getElementsByClassName("container-link")[8];
+        
+        if(menu.classList.contains("click")) {
+                menu.classList.remove("click");
+                displayStartContext.style.display = "none";
+                circulo.style.backgroundColor = "#fff";
+        }
+        else{
+                menu.classList.add("click");
+                displayStartContext.style.display = "flex";
+                circulo.style.backgroundColor = "#002C73";
+        }
+        displayStartContext.innerHTML = returnTextPrincipiosValores();
+}
+
+function showAfiliate(){
+        var displayStartContext = document.getElementById("startContext");
+        displayStartContext.innerHTML = returnTextPrincipiosValores();
+}
+function showAfiliateMovil(){
+        var displayStartContext = document.getElementById("afiliate");
+        
+        let menu = document.getElementsByClassName("card-link")[9];
+        let circulo = document.getElementsByClassName("container-link")[9];
+        
+        if(menu.classList.contains("click")) {
+                menu.classList.remove("click");
+                displayStartContext.style.display = "none";
+                circulo.style.backgroundColor = "#fff";
+        }
+        else{
+                menu.classList.add("click");
+                displayStartContext.style.display = "flex";
+                circulo.style.backgroundColor = "#002C73";
+        }
+        displayStartContext.innerHTML = returnTextPrincipiosValores();
+}
