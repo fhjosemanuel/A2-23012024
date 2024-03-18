@@ -330,9 +330,46 @@ function showAfiliateMovil(){
         displayStartContext.innerHTML = returnTextPrincipiosValores();
 }
 
+$(document).ready( function () {
+        var current = 0;
+        let slides = document.querySelectorAll(".item");
+        let countSlides = slides.length; // Númeor de diapositivas
 
+        $('#izquierda').on("click", function (){
+                if(current == 0){
+                        $(slides[current]).removeClass('active');
+                        current = countSlides-1;
+                        $(slides[current]).addClass('active');
+                }
+                else{
+                        $(slides[current]).removeClass('active');
+                        $(slides[--current]).addClass('active');
+                }
+                
+        });
+        $('#derecha').on("click", function (){
+                if( current > 0 && current < countSlides-1){
+                        $(slides[current]).removeClass('active');
+                        $(slides[++current]).addClass('active');
+                }
+                else{
+                        if(current == 0){
+                                if( $(slides[current]).hasClass('active') ){
+                                        $(slides[current]).removeClass('active');
+                                        $(slides[current + 1]).addClass('active');
+                                }
+                                current++;
+                        }
+                        else{
+                                $(slides[current]).removeClass('active');
+                                current = 0;
+                                $(slides[current]).addClass('active');
+                        }
+                }
+        });
+});
 
-const slider = document.querySelector(".carousel-reponsive");
+/* const slider = document.querySelector(".carousel-reponsive");
 const slides = document.querySelectorAll(".item");
 const button = document.querySelectorAll(".boton");
 
@@ -342,8 +379,9 @@ let next = 1;
 
 for (let i = 0; i < button.length; i++) {
         button[i].addEventListener("click", () => i == 0 ? gotoPrev() : gotoNext());
-}
-
+        console.log(button[i]);
+} */
+/* 
 const gotoPrev = () => current > 0 ? gotoNum(current - 1) : gotoNum(slides.length - 1);
 
 const gotoNext = () => current < 4 ? gotoNum(current + 1) : gotoNum(0);
@@ -370,4 +408,4 @@ const gotoNum = number => {
         slides[current].classList.add("active");
         slides[prev].classList.add("prev");
         slides[next].classList.add("next");
-}
+} */
