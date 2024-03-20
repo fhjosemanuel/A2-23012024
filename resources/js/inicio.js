@@ -191,10 +191,23 @@ function ShowPlanPoliticoMovil(){
         displayStartContext.innerHTML = returnTextPlanPolitico();
 }
 
-
+function returnTextOrganigrama(){
+        return ""
+                +"El FETUAGro cuenta con las siguientes instancias colegiadas para el funcionamiento de su Estructura Orgánica:"
+                +"Congreso General;"
+                +"Dirección Política Estatal (DPE);"
+                +"Comisión Política Ejecutiva Estatal (CPEE);"
+                +"Asamblea Regional Plenaria (ARP);"
+                +"Comisión Política Regional (CPR);"
+                +"Núcleo de Base por unidad académica o dependencia administrativa (NB)."
+                
+                +"El núcleo de base es la estructura básica del FETUAGro. Existe un núcleo por cada Unidad Académica o dependencia donde el FETUAGro tiene presencia. Deberá reunirse en asamblea ordinaria al menos cada dos meses."
+                +"Cada núcleo elegirá de entre sus miembros una Comisión Política del Núcleo de Base, con un mínimo de tres y un máximo de diez responsables, que durarán cuatro años. De acuerdo a las condiciones de cada Unidad Académica o dependencia se procurará que en la elección de sus responsables esté representada la pluralidad de los integrantes del núcleo de base."
+                +"Todos los núcleos de base de la organización, así como las otras instancias del FETUAGro, están obligados a aplicar el principio de la dirección colectiva y la responsabilidad individual, así como las normas de la democracia interna.";
+}
 function ShowOrganigrama(){
         var displayStartContext = document.getElementById("startContext");
-        displayStartContext.innerHTML = returnTextPrincipiosValores();
+        displayStartContext.innerHTML = returnTextOrganigrama();
 }
 function ShowOrganigramaMovil(){
         var displayStartContext = document.getElementById("organigrama");
@@ -261,9 +274,33 @@ function showEstudiantesMovil(){
         displayStartContext.innerHTML = returnTextPrincipiosValores();
 }
 
+function returnTextAgenda(){
+        return ""
+                +"<div>"
+                        +"<a href='#'>Actividades académicas</a>"
+                +"</div>"
+                +"<div>"
+                        +"<a href='#'>Actividades de desarrollo humano</a>"
+                +"</div>"
+                +"<div>"
+                        +"<a href='#'>Actividades culturales</a>"
+                +"</div>"
+                +"<div>"
+                        +"<a href='#'>Actividades deportivas</a>"
+                +"</div>"
+                +"<div>"
+                        +"<a href='#'>Actividades políticas</a>"
+                +"</div>"
+                +"<div>"
+                        +"<a href='#'>Actividades de liderazgo</a>"
+                +"</div>"
+                +"<div>"
+                        +"<a href='#'>Oportunidades de crecimiento</a>"
+                +"</div>";
+}
 function showAgenda(){
         var displayStartContext = document.getElementById("startContext");
-        displayStartContext.innerHTML = returnTextPrincipiosValores();
+        displayStartContext.innerHTML = returnTextAgenda();
 }
 function showAgendaMovil(){
         var displayStartContext = document.getElementById("agenda");
