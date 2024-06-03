@@ -1,0 +1,30 @@
+[
+    {
+        "Url": "images/edificio-lleno-de-casa.png",
+        "Title": "Inicio"
+    },
+    {
+        "Url": "images/grupo.png",
+        "Title": "Comunidad"
+    },
+    {
+        "Url": "images/certificado.png",
+        "Title": "Oferta educativa"
+    },
+    {
+        "Url": "images/microscopio.png",
+        "Title": "Investigación y posgrado"
+    },
+    {
+        "Url": "images/darse-la-mano.png",
+        "Title": "Vinculación"
+    },
+    {
+        "Url": "images/revista.png",
+        "Title": "Revista"
+    },
+    {
+        "Url": "images/directorio-telefonico.png",
+        "Title": "Directorio"
+    }
+]
