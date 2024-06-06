@@ -9,12 +9,15 @@ function fillMenu(){
         dataType: "JSON",
         success: function (result){
             $.each(result, function (item, value){
-                $("#Menu").append('<div class="col-5 border border-4 border-blue-oficial rounded-circle d-flex justify-content-center align-items-center mx-auto" style="height: 10rem;">'
+                $("#Menu").append('<div onclick="GetComponent(' + value.Id + ',\'' + value.ComponentRoute + '\')" class="col-5 rounded-circle-div d-flex justify-content-center align-items-center" id="option' + value.Id + '">'
                 + '<div class="text-center">'
-                    + '<img src="/wwwroot/' + value.Url + '" />'
-                    + '<div class="mt-2">' + value.Title + '</div>'
+                    + '<div class="bg-white rounded-circle py-2">'
+                        + '<img src="/wwwroot/' + value.Url + '" alt="Inicio" />'
+                    + '</div>'
+                    + '<div class="mt-2 fw-bold">' + value.Title + '</div>'
                 + '</div>'
-            + '</div>');
+            + '</div>'
+            + '<div id="ShowHomeComponent' + value.Id + '" style="display: none;"><div>');
             });
         },
         error: function (error){
@@ -23,4 +26,25 @@ function fillMenu(){
             + '</div>');
         }
     });
+}
+
+function GetComponent(id,component){
+
+    if( component != "null" &&  !$("#ShowHomeComponent" + id).is(':visible') ){
+        if(!$("#option" + id).hasClass('bg-blue-oficial')) { $("#option" + id).addClass('bg-blue-oficial') }
+        $("#ShowHomeComponent" + id).empty().show();
+        $.ajax({
+            url: "/" + component,
+            dataType: "HTML",
+            success: function (result){
+                $("#ShowHomeComponent" + id).append(result);
+            },
+            error: function (error){
+                $("#ShowHomeComponent" + id).append('<p class="text-center">Error al mostrar información :(</p>');
+            }
+        });
+    } else {
+        if($("#option" + id).hasClass('bg-blue-oficial')) { $("#option" + id).removeClass('bg-blue-oficial') }
+        $("#ShowHomeComponent" + id).empty().hide();
+    }
 }
