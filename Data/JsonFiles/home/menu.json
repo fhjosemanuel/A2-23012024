@@ -9,36 +9,36 @@
         "Id": 2,
         "Url": "images/grupo.png",
         "Title": "Comunidad",
-        "ComponentRoute": "views/components/Home/Comunidad.html"
+        "ComponentRoute": "views/components/Home/_comunidad.html"
     },
     {
         "Id": 3,
         "Url": "images/certificado.png",
         "Title": "Oferta educativa",
-        "ComponentRoute": "views/components/Home/Comunidad.html"
+        "ComponentRoute": "views/components/Home/_oferta-educativa.html"
     },
     {
         "Id": 4,
         "Url": "images/microscopio.png",
         "Title": "Investigación y posgrado",
-        "ComponentRoute": "views/components/Home/Comunidad.html"
+        "ComponentRoute": "views/components/Home/_comunidad.html"
     },
     {
         "Id": 5,
         "Url": "images/darse-la-mano.png",
         "Title": "Vinculación",
-        "ComponentRoute": "views/components/Home/Comunidad.html"
+        "ComponentRoute": "views/components/Home/_comunidad.html"
     },
     {
         "Id": 6,
         "Url": "images/revista.png",
         "Title": "Revista",
-        "ComponentRoute": "views/components/Home/Comunidad.html"
+        "ComponentRoute": "views/components/Home/_comunidad.html"
     },
     {
         "Id": 7,
         "Url": "images/directorio-telefonico.png",
         "Title": "Directorio",
-        "ComponentRoute": "views/components/Home/Comunidad.html"
+        "ComponentRoute": "views/components/Home/_comunidad.html"
     }
 ]
