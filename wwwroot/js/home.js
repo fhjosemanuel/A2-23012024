@@ -7,6 +7,7 @@ function fillMenu(){
     $.ajax({
         url: "/Data/JsonFiles/home/menu.json",
         dataType: "JSON",
+        cache: false,
         success: function (result){
             $.each(result, function (item, value){
                 $("#Menu").append('<div onclick="GetComponent(' + value.Id + ',\'' + value.ComponentRoute + '\')" class="col-5 rounded-circle-div d-flex justify-content-center align-items-center" id="option' + value.Id + '">'
