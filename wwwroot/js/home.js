@@ -30,12 +30,13 @@ function fillMenu(){
 }
 
 function GetComponent(id,component){
-
+    let randomNumber = Math.floor(Math.random() * 100000); 
+    console.log(component);
     if( component != "null" &&  !$("#ShowHomeComponent" + id).is(':visible') ){
         if(!$("#option" + id).hasClass('bg-blue-oficial')) { $("#option" + id).addClass('bg-blue-oficial') }
         $("#ShowHomeComponent" + id).empty().show();
         $.ajax({
-            url: "/" + component,
+            url: "/" + component + "?v=" + randomNumber,
             dataType: "HTML",
             success: function (result){
                 $("#ShowHomeComponent" + id).append(result);

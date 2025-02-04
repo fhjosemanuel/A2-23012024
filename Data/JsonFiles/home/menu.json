@@ -3,7 +3,7 @@
         "Id": 1,
         "Url": "images/edificio-lleno-de-casa.png",
         "Title": "Inicio",
-        "ComponentRoute": null
+        "ComponentRoute": "views/components/Home/_inicio.html"
     },
     {
         "Id": 2,
@@ -27,7 +27,7 @@
         "Id": 5,
         "Url": "images/darse-la-mano.png",
         "Title": "Vinculación",
-        "ComponentRoute": "views/components/Home/_comunidad.html"
+        "ComponentRoute": "views/components/Home/_vinculacion.html"
     },
     {
         "Id": 6,
